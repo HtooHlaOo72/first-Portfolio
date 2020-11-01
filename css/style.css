@@ -1,0 +1,52 @@
+.main_color{
+    background-color: #ffff99;
+}
+h1,h2,h3,h5,h5{
+    font-size: 4vw;
+}
+@media (max-width:500px){
+    h1,h2,h3,h5,h6{
+        font-size: 3vh;
+    }
+}
+li a,p,h4{
+    font-size: 2vh;
+}
+img{
+width:100%;
+}
+
+#collapsibleNav li{
+    display: flex;
+    
+    
+}
+#navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li a:hover{
+
+    border-bottom: 2px solid black;
+    
+}
+.footer img{
+    width: 25px;
+    height:25px
+}
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover{
+    font-size: smaller;
+    border-bottom:1px solid black;
+
+}
+.my_fav{
+    height:80vh;
+    background-repeat: no-repeat;
+    background-image: url(images/codingman.svg);
+    background-size: contain;
+    
+}
